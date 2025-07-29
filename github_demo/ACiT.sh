@@ -2,9 +2,6 @@ if [ ! -d "./logs" ]; then
     mkdir ./logs
 fi
 
-source ~/anaconda3/etc/profile.d/conda.sh
-conda activate paper8
-
 model_name=TMN
 
 python -u run_exp.py \
